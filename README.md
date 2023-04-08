@@ -40,3 +40,23 @@ vue create 项目名称
  Use Yarn
  Use PNPM
 *Use NPM
+
+
+文件夹介绍
+1、public
+项目中的一些资源
+
+2、src
+所有的源代码
+
+3、.browserslistrc
+设置目标浏览器
+
+4、.gitignore
+git的忽略文件
+
+5、babel.config.js
+babel的配置
+
+6、package.json
+项目的管理文件

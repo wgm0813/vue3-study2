@@ -58,5 +58,8 @@ git的忽略文件
 5、babel.config.js
 babel的配置
 
-6、package.json
+6、jsonfig.json
+VSCode编辑器识别，这样更好给出对应的提示
+
+7、package.json
 项目的管理文件

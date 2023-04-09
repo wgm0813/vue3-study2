@@ -77,3 +77,22 @@ vue.esm-bundler: runtime + compile，对template进行编译
 VSCode插件:编辑器
 vetur: vue2/vue3
 volar: vue3
+
+
+11、创建vue项目的第二种方式  ：此打包工具基于vite
+(具体见03-vue-vite文件夹README文件解释)
+npm init vue@latest 
+1、安装一个本地工具：create-vue
+2、使用create-vue创建一个vue项目
+
+>Project name: >>03-vue-vite03-vue-vite
+√ Add TypeScript? ... No / Yes
+√ Add JSX Support? ... No / Yes
+√ Add Vue Router for Single Page Application development? ... No / Yes
+√ Add Pinia for state management? ... No / Yes
+√ Add Vitest for Unit Testing? ... No / Yes
+√ Add an End-to-End Testing Solution? » No
+√ Add ESLint for code quality? ... No / Yes
+默认是没有装依赖的
+
+npm install

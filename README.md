@@ -7,7 +7,7 @@ npm install @vue/cli -g
 2、升级版本命令
 npm update @vue/cli -g
 
-3、创建vue项目命令
+3、创建vue项目命令 :打包基于webpack
 vue create 项目名称
 
 ？Please pick a preset:选择预设
@@ -63,3 +63,17 @@ VSCode编辑器识别，这样更好给出对应的提示
 
 7、package.json
 项目的管理文件
+
+8、引用vue版本
+默认Vue版本：runtime, vue-loader完成template的编译过程
+vue.esm-bundler: runtime + compile，对template进行编译
+
+9、vue文件style自己的作用域scoped:只在自己组件内部生效
+<style scoped></style>
+
+10、配置用户代码片段 （snippet-generator.app网站转换）
+文件 -> 首选项 ->用户代码片段 -> 选择vue文件 -> 粘贴添加代码
+
+VSCode插件:编辑器
+vetur: vue2/vue3
+volar: vue3

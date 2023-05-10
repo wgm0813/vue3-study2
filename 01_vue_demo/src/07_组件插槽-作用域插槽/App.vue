@@ -13,7 +13,8 @@
     <tab-control :titles="['衣服', '鞋子', '裤子']" 
                  @tab-item-click="tabItemClick">
       <template v-slot:default="props">
-        <button>{{ props.item }}</button>
+        <!-- 所有的属性都传给props是一个对象，想要拿到item，就props.item -->
+        <button>{{  props.index + props.item }}</button>
       </template>
     </tab-control>
 
